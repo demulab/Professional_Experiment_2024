@@ -6,7 +6,7 @@ Acquire::http::Proxy "http://wwwproxy.kanazawa-it.ac.jp:8080";
 Acquire::https::Proxy "https://wwwproxy.kanazawa-it.ac.jp:8080";
 ```
 
-ubuntuの「設定」から「ネットワーク」の「ネットワークプロキシ」を手動に設定する。その時、以下の画像のようにwwwproxy.kanazawa-it.ac.jpを追加する。
+ubuntuの「設定」から「ネットワーク」の「ネットワークプロキシ」を手動に設定する。その時、以下の画像のように```wwwproxy.kanazawa-it.ac.jp```を追加する。
 ![image](https://github.com/demulab/Professional_Experiment_2024/assets/42795206/ab7a7204-06d5-4f88-aad8-8a10bb1ecccd)
 
 
