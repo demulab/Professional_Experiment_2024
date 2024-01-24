@@ -27,6 +27,10 @@ sudo apt install ros-foxy-turtle-tf2-py ros-foxy-tf2-tools ros-foxy-tf-transform
 ```
 
 ## ピック＆プレース
+**動作動画**
+
+https://www.youtube.com/watch?v=LFXVFafaE2M
+
 ### USBカメラ
 ```
 ros2 run usb_cam usb_cam_node_exe --ros-args -p video_device:=/dev/video2
