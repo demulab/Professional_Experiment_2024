@@ -14,6 +14,8 @@ ubuntuの「設定」から「ネットワーク」の「ネットワークプ�
 
 ## インストール
 ```
+sudo apt update
+
 # vision
 sudo apt install ros-foxy-vision-opencv
 sudo apt install ros-foxy-usb-cam
