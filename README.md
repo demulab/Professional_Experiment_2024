@@ -1,4 +1,19 @@
 # Professional_Experiment_2024
+## Proxy設定
+
+
+## インストール
+```
+# vision
+sudo apt install ros-foxy-vision-opencv
+sudo apt install ros-foxy-usb-cam
+pip3 install scipy
+pip3 install opencv-contrib-python==4.6.0.66 transforms3d
+
+# tf2
+sudo apt install ros-foxy-turtle-tf2-py ros-foxy-tf2-tools ros-foxy-tf-transformations
+```
+
 ## ピック＆プレース
 ### USBカメラ
 ```
