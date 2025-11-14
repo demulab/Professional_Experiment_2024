@@ -165,7 +165,7 @@ def main(args=None):
 
     while rclpy.ok():
         print("robot execution")
-        #rclpy.spin_once(open_manipulator_x)
+        rclpy.spin_once(open_manipulator_x, timeout_sec=0.0)
 
         # 姿勢１ 引数は（[x,y,z,pitch角],速度,加速度）
         open_manipulator_x.move([0.1, 0.1, 0.1, 90.0], vel, accel)
@@ -191,5 +191,6 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
 
 
